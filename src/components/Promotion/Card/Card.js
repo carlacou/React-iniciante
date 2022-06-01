@@ -5,7 +5,7 @@ const PromotionCard = ({ promotion }) => (
   <div className="promotion-card">
     <img
       src={promotion.imageUrl}
-      alt="notebook e mochila"
+      alt={promotion.title}
       className="promotion-card__image"
     />
     <div className="promotion-card__info">
